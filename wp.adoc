@@ -1,5 +1,5 @@
 :Title: OGC Technical Note: Modeling, Simulation and Prediction
-:titletext: {Title}
+:titletext: OGC Technical Note: Modeling, Simulation and Prediction
 :doctype: book
 :encoding: utf-8
 :lang: en

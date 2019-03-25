@@ -1,16 +1,40 @@
 == Technology to advance MSP
 //write text in as many clauses as necessary. Use one document or many, your choice!
 
-1. current state projects
-  1. CDB
-    1. Mod/SIM/Predictions and VATC
-    2. VATC 3D model generation
-    3. Presagis to Launch Worldwide Terrain Viewer Based on Unreal Engine
-  1. OpenMI
-  1. SISO ENGTAM SG [main]
-2. Elements
-  1. model coordination
-  2. naming and units
-  3. space and time models
-3. future needs
-4. Standards Needed
+1. Standards
+2. Computing Platforms
+3. Visualization
+
+
+
+=== OGC CDB
+
+The CDB standard defines a standardized model and structure for a single, “versionable”, virtual representation of the earth. A CDB structured data store provides for a geospatial content and model definition repository that is plug-and-play interoperable between database authoring workstations.  Moreover, a CDB structured data store can be used as a common online (or runtime) repository from which various simulator client-devices can simultaneously retrieve and modify, in real-time, relevant information to perform their respective runtime simulation tasks. In this case, a CDB is plug-and-play interoperable between CDB-compliant simulators.  A CDB can be readily used by existing simulation client-devices (legacy Image Generators, Radar simulator, Computer Generated Forces, etc.) through a data publishing process that is performed on-demand in real-time.
+
+The CDB standard defines an open format for the storage, access and modification of a synthetic environment database.  A synthetic environment is a computer simulation that represents activities at a high level of realism, from simulation of theaters of war to factories and manufacturing processes. These environments may be created within a single computer or a vast distributed network connected by local and wide area networks and augmented by super-realistic special effects and accurate behavioral models.
+
+This standard defines the organization and storage structure of a worldwide synthetic representation of the earth as well as the conventions necessary to support all of the subsystems of a full-mission simulator.  The standard makes use of several commercial and simulation data formats endorsed by leaders of the database tools industry.
+
+A series of associated OGC Best Practice documents define rules and guidelines for data representation of real world features.
+
+http://www.opengeospatial.org/standards/cdb
+
+
+=== OGC OpenMI
+
+The purpose of the Open Modelling Interface (OpenMI) is to enable the runtime exchange of data between process simulation models and also between models and other modelling tools such as databases and analytical and visualization applications. Its creation has been driven by the need to understand how processes interact and to predict the likely outcomes of those interactions under given conditions. A key design aim has been to bring about interoperability between independently developed modelling components, where those components may originate from any discipline or supplier. The ultimate aim is to transform integrated modelling into an operational tool accessible to all and so open up the potential opportunities created by integrated modelling for innovation and wealth creation.
+http://www.opengeospatial.org/standards/openmi
+
+=== SISO
+
+SISO ENGTAM SG [main] - see note.
+
+
+
+
+
+
+=== Integrated Environmental Modeling projects
+
+
+==== Community Land Model

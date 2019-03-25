@@ -1,13 +1,20 @@
 == The Value of Modeling, Simulation and Prediction - Markets
 //write text in as many clauses as necessary. Use one document or many, your choice!
 
+What is needed?
 
-1. Gaming
-2. GEOINT
+=== Geospatial Intelligence
+
   1. NGA NAS workshop on models
   1. NGA_Strategy focus on analytic models
-3. Earth Modeling
+
+=== Geophysical  Modeling
+
   1. Crossing the chasm: Bryan Lawrence, et.al.
   1. OGC Presentation/ABSTRACT for ESGF F2F 2018
-4. Smart Cities
-5. Resource Management: Precision Agriculture
+
+=== Smart Cities
+
+=== Resource Management: Precision Agriculture
+
+=== Entertainment and Gaming

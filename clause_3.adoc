@@ -2,6 +2,39 @@
 //write text in as many clauses as necessary. Use one document or many, your choice!
 
 1. Modeling and simulation
+  1.     1. Mod/SIM/Predictions and VATC
+      2. VATC 3D model generation
+      3. Presagis to Launch Worldwide Terrain Viewer Based on Unreal Engine
 2. Integrated environmental models
 3. Urban 3D modeling
 4. Digital Twin - Dynamic and Static
+
+Use Cases in the Spatial Modeling category include:
+
+=== Modeling and simulation
+
+• Description: Modeling and simulation applications support applications in which inter-connected simulators share a common view of the simulated environment.
+• Standards: OGC CDB
+• References:
+
+=== Integrated environmental models
+
+• Description: Integrated environmental modeling provides a science-based structure to develop and organize relevant knowledge and information and apply it to explain, explore, and predict the behavior of environmental systems in response to human and natural sources of stress.
+• Standards: OpenMI
+• References: Environmental model access and interoperability: The GEO Model Web initiative
+
+----
+Integrated environmental modeling (IEM)is inspired by modern environmental problems, decisions, and policies and enabled by transdisciplinary science and computer capabilities that allow the environment to be considered in a holistic way. The problems are characterized by the extent of the environmental system involved, dynamic and interdependent nature of stressors and their impacts, diversity of stakeholders, and integration of social, economic, and environmental considerations. IEM provides a science-based structure to develop and organize relevant knowledge and information and apply it to explain, explore, and predict the behavior of environmental systems in response to human and natural sources of stress.
+IEM is presented as a landscape containing four interdependent elements: applications, science, technology, and community. The elements are described from the perspective of their role in the landscape, current practices, and challenges that must be addressed.
+----
+From: Gerard F. Laniak, Gabriel Olchin, Jonathan Goodall, Alexey Voinov, Mary Hill, Pierre Glynn, Gene Whelan, Gary Geller, Nigel Quinn, Michiel Blind, Scott Peckham, Sim Reaney, Noha Gaber, Robert Kennedy, Andrew Hughes,
+Integrated environmental modeling: A vision and roadmap for the future,
+Environmental Modelling & Software, Volume 39, 2013, Pages 3-23, ISSN 1364-8152, https://doi.org/10.1016/j.envsoft.2012.09.006.
+
+
+
+=== Urban 3D modeling
+
+• Description: A 3D city model is a representation of an urban environment with a three-dimensional geometry of common urban objects and structures, with buildings as the most prominent feature. 3D city models have become valuable for purposes beyond visualisation, and are utilised in a large number of domains and applications.
+• Standards: CityGML
+• References: Applications of 3D City Models: State of the Art Review
