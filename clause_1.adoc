@@ -1,8 +1,8 @@
-== Section Header
+== Advancing Mod, Sim, Predict Convergence
 //write text in as many clauses as necessary. Use one document or many, your choice!
 
 
-Increasing computational power allows us to anticipate great advances based on covergence and interoperability existing capabilities in the areas of:
+Increasing computational power allows us to anticipate great advances based on convergence and interoperability existing capabilities in the areas of:
 * Modeling and Simulation, e.g., training simulators
 * Integrated environmental models, e.g., predictive geophysical computer models.
 * Geo-Social modeling at several scales
@@ -30,7 +30,11 @@ This note builds on previous activities in the OGC Future Directions sessions .
 2. Simulation and Prediction to analyze some phenomenology - “modeling” establishes the domain of analysis.
 3. Geospatial predictive modeling - a process for spatially analyzing events in order to make statements of likelihood for event occurrence
 
-figures/ModSimPredictOvals.png
+//  If you want to reference a figure by using a figure number, it is important to use the following syntax. The figure identifier for <<img_mindMap>> is the first statement of the header. Please adapt the width as appropriate.
+
+[#img_mindMap,reftext='{figure-caption} {counter:figure-num}']
+.The overlapping technologies of Modeling, Simulation and Prediction
+image::images/ModSimPredictOvals.png[width=800,align="center"]
 
 
 This Tech note is organized using the outline of Technology Roadmapping Techniques

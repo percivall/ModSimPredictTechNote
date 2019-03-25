@@ -1,6 +1,6 @@
 [big]*i.     Abstract*
 
-<Insert Abstract Text here>
+The ability to model, simulate and make predications about our  world can be advanced rapidly by bringing together several technologies.  This advancement can be accelerated based on the  concepts of geospatial information and the mechanisms of the Open Geospatial Consortium. This OGC Tech Note provides a roadmap to advancing this convergence resulting in technology advancements that will improve applications leading to benefits in several market domains.
 
 [big]*ii.    Keywords*
 

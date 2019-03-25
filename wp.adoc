@@ -1,4 +1,4 @@
-:Title: OGC (add title text)
+:Title: OGC Technical Note: Modeling, Simulation and Prediction
 :titletext: {Title}
 :doctype: book
 :encoding: utf-8
@@ -21,12 +21,12 @@
 |External identifier of this OGC(R) document: http://www.opengis.net/doc/{doc-type}/{standard}/{m.n}
 |Internal reference number of this OGC(R) document:    YY-nnnrx
 |Category: OGC(R) White Paper
-|Editor:   <Name(s) of Editor or Editors>
+|Editor:  George Percivall
 |===
 
 [cols = "^", frame = "none"]
 |===
-|[big]*{titletext}*
+|[big]*OGC Technical Note: Modeling, Simulation and Prediction*
 |===
 
 [cols = "^", frame = "none", grid = "none"]
@@ -78,9 +78,19 @@ include::clause_0_front_material.adoc[]
 
 include::clause_1.adoc[]
 
+include::clause_2.adoc[]
+
+include::clause_3.adoc[]
+
+include::clause_4.adoc[]
+
+include::clause_5.adoc[]
+
 <<<
 //use annexes as needed
-include::annex-n.adoc[]
+include::annex-A.adoc[]
+
+include::annex-B.adoc[]
 
 <<<
 ////
