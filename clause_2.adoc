@@ -1,0 +1,15 @@
+== Section Header
+//write text in as many clauses as necessary. Use one document or many, your choice!
+
+        4. To do
+2. The Value of Modeling, Simulation and Prediction - Markets
+    1. Gaming
+        1.
+    2. GEOINT
+        1. NGA NAS workshop on models
+        2. NGA_Strategy focus on analytic models
+    3. Earth Modeling
+        1. Crossing the chasm: Bryan Lawrence, et.al.
+        2. OGC Presentation/ABSTRACT for ESGF F2F 2018
+    4. Smart Cities
+    5. Resource Management: Precision Agriculture

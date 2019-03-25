@@ -4,3 +4,5 @@
 
 [NOTE]
 Place other Annex material in sequential annexes beginning with "A" and leave final two annexes for the Revision History and Bibliography
+
+Annex A – Relevant OGC Standards

@@ -1,2 +1,42 @@
 == Section Header
 //write text in as many clauses as necessary. Use one document or many, your choice!
+
+
+Increasing computational power allows us to anticipate great advances based on covergence and interoperability existing capabilities in the areas of:
+* Modeling and Simulation, e.g., training simulators
+* Integrated environmental models, e.g., predictive geophysical computer models.
+* Geo-Social modeling at several scales
+
+OGC can bring a unique perspective and coordination to the convergent worlds of Modeling, Simulation, Prediction (MSP).  In particular OGC activity can:
+* Identify the value of interoperability of geospatial MSP to making decisions
+* Define concepts and semantic models that aid analysts in using MSP
+    * Static and dynamic, empirical and analytic, etc.
+* Interoperability methods for MSP models based on geospatial concepts, e.g., CRSs.
+* Quality assessment: Effectiveness, Provenance, and Reproducibility
+
+Cross cutting concepts
+* CRS
+* Time
+* Geographic domains - layers, etc
+* Integrative perspective
+* workflow, processes, execution, WPS
+* Geoscience Algorithm Integration Based on OWS Specifications:
+
+
+The OGC Technology Forecasting has identified Mod, Sim, Predict as priority trend for assessment.
+
+This note builds on previous activities in the OGC Future Directions sessions .
+1. Modeling and Simulation to interact with a representation of the real world – “prediction” depends on user interaction
+2. Simulation and Prediction to analyze some phenomenology - “modeling” establishes the domain of analysis.
+3. Geospatial predictive modeling - a process for spatially analyzing events in order to make statements of likelihood for event occurrence
+
+figures/ModSimPredictOvals.png
+
+
+This Tech note is organized using the outline of Technology Roadmapping Techniques
+** Markets
+** Applications
+** Technology
+With a particular emphasis on the steps needed to meeting the particular perspective that OGC can bring to advancing this trend.
+
+Figure: Tech Roadmap  Mod-Sim-Predict

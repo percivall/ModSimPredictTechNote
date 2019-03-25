@@ -1,0 +1,7 @@
+== Section Header
+//write text in as many clauses as necessary. Use one document or many, your choice!
+3. Use cases for MSP (from Big Data WP) - Applications
+    1. Modeling and simulation
+    2. Integrated environmental models
+    3. Urban 3D modeling
+    4. Digital Twin - Dynamic and Static
