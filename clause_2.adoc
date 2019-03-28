@@ -3,17 +3,40 @@
 
 What is needed?
 
+=== Sustainable Development
+
+* United Nations Sustainable Development Goals
+* IPCC
+* Smart Cities
+
+“Global-scale geophysical and geospatial analytic models"
+
+==== Smart cities
+
+Modeling and Simulation of Large Biological, Information and Socio-Technical Systems: An Interaction Based Approach
+Chris Barrett, Stephen Eubank, Madhav Marathe
+Virginia Polytechnic Institute and State University, Blacksburg Virginia.
+
+Computer modeling and simulation of large integrated biological, information, social and technical (BIST) systems.  Examples of such systems are urban regional transportation systems, the national electrical power markets and grids, gene regulatory networks, the world- wide Internet, infectious diseases, vaccine design and deployment, theater war, etc. These systems are composed of large numbers of interacting human, physical, infor- mational and technological components. These components adapt and learn, exhibit perception, interpretation, reasoning, deception, cooperation and non-cooperation, and have economic motives as well as the usual physical properties of interaction.
+The theoretical foundation of our approach consists of two parts: (i) mathematics of complex interdependent dynamic networks, and (ii) mathematical and computational theory of a class of finite discrete dynamical systems called Sequential Dynamical Systems (SDSs). We then consider engineering principles based on such a theory. As with the theoretical foundation, they consist of two basic parts: (i) Efficient data manipulation, including synthesis, integration, storage and regeneration and (ii) high performance computing oriented system design, development and implementation. The engineering methods allow us to specify, design, and analyze simulations of extremely large systems and implement them on massively parallel architectures. As an illustration of our approach, an interaction based computer modeling and simulation framework to study very large interdependent societal infrastructures is described.
+
 === Geospatial Intelligence
 
-  1. NGA NAS workshop on models
-  1. NGA_Strategy focus on analytic models
 
-=== Geophysical  Modeling
+* NGA_Strategy focus on analytic models
 
-  1. Crossing the chasm: Bryan Lawrence, et.al.
-  1. OGC Presentation/ABSTRACT for ESGF F2F 2018
+  The NGA Strategy for 2025:  "We will increase our investments in modeling activities to build a prototype geospatial modeling framework for testing, training, and validating global-scale geophysical and geospatial analytic models."
 
-=== Smart Cities
+
+*  NGA NAS workshop on models
+  Model Types:
+    Physical processes that affect human activities
+    Social system/human behavior in geo context
+    Combined physical and social systems 
+
+    From Maps to Models: Augmenting the Nation's Geospatial Intelligence Capabilities.  Washington, DC: The National Academies Press. doi: 10.17226/23650.
+
+
 
 === Resource Management: Precision Agriculture
 

@@ -1,13 +1,49 @@
 == Technology to advance MSP
 //write text in as many clauses as necessary. Use one document or many, your choice!
 
-1. Standards
-2. Computing Platforms
-3. Visualization
+1. Cross-cutting topics
+2. Standards
+3. Model builder technologies
+3. Computing Technology and Platforms
+4. Visualization
+
+
+Convergence of Mod/SIM and Predictive Modeling
+Automated 3D Model creation from point clouds, etc.
+GPU and Gaming community technologies
+Integrated environmental models; “Model Web”
+Integrated models spatial & temporal scale matching
+Convergence of simulation & data-driven computation
+Exa-scale modeling
+
+
+=== Cross-Cutting topics
+
+To achieve the desired interoperability of models, there will need to be coordination across the technologies on these topics.
+
+* CRS and Time
+* Units of Measure and Parameters
+* Coverages, Grids, DGGGs
+* workflow, processes, execution, APIs
+
+==== CRS and Time
+
+==== Units of Measure and Parameters
+
+==== Coverages, Grids, DGGGs
+
+==== workflow, processes, execution, APIs
+
+
+Manuscript number ENVSOFT_2018_58
+Title Coupling Components and Services for Integrated Environmental Modelling Abstract
+Integrated environmental modelling (IEM) couples environmental models, geoprocessing algorithms, and data together to solve complex environmental problems. There are two prominent modelling frameworks for IEM: component based and service oriented frameworks. The former one has been widely employed in local computer environments, and has its advantage in having concrete and community-wide tools. The latter one can take advantage of Web technologies for integrating distributed environmental models. However, the complex interaction between environmental models such as time marching models is still a challenge for integrating models on the Web. This paper suggests to take the best of both frameworks. Models are shared on the Web as WebSocket services. A hybrid approach to leverage OpenMI and WebSocket for coupling components and services is proposed to provide a flexible IEM environment. The result illustrates the applicability of the approach and demonstrates the advantage of WebSocket over the traditional HTTP approach in model execution.
 
 
 
-=== OGC CDB
+=== Standards
+
+==== OGC CDB
 
 The CDB standard defines a standardized model and structure for a single, “versionable”, virtual representation of the earth. A CDB structured data store provides for a geospatial content and model definition repository that is plug-and-play interoperable between database authoring workstations.  Moreover, a CDB structured data store can be used as a common online (or runtime) repository from which various simulator client-devices can simultaneously retrieve and modify, in real-time, relevant information to perform their respective runtime simulation tasks. In this case, a CDB is plug-and-play interoperable between CDB-compliant simulators.  A CDB can be readily used by existing simulation client-devices (legacy Image Generators, Radar simulator, Computer Generated Forces, etc.) through a data publishing process that is performed on-demand in real-time.
 
@@ -20,21 +56,194 @@ A series of associated OGC Best Practice documents define rules and guidelines f
 http://www.opengeospatial.org/standards/cdb
 
 
-=== OGC OpenMI
+==== OGC OpenMI
 
 The purpose of the Open Modelling Interface (OpenMI) is to enable the runtime exchange of data between process simulation models and also between models and other modelling tools such as databases and analytical and visualization applications. Its creation has been driven by the need to understand how processes interact and to predict the likely outcomes of those interactions under given conditions. A key design aim has been to bring about interoperability between independently developed modelling components, where those components may originate from any discipline or supplier. The ultimate aim is to transform integrated modelling into an operational tool accessible to all and so open up the potential opportunities created by integrated modelling for innovation and wealth creation.
 http://www.opengeospatial.org/standards/openmi
 
-=== SISO
+Integrated modelling using WPS and OpenMI
+URL: http://www.anthonycastronova.com/download/castronova_wps_2013.pdf
+Environmental modeling often requires the use of multiple data sources, models, and analysis routines
+coupled into a workflow to answer a research question. Coupling these computational resources can be
+accomplished using various tools, each requiring the developer to follow a specific protocol to ensure
+that components are linkable. Despite these coupling tools, it is not always straight forward to create
+a modeling workflow due to platform dependencies, computer architecture requirements, and
+programming language incompatibilities. A service-oriented approach that enables individual models to
+operate and interact with others using web services is one method for overcoming these challenges. This
+work advances the idea of service-oriented modeling by presenting a design for a modeling service that
+builds from the Open Geospatial Consortium (OGC) Web Processing Service (WPS) protocol. We
+demonstrate how the WPS protocol can be used to create modeling services, and then demonstrate how
+these modeling services can be brought into workflow environments using generic client-side code. We
+implemented this approach within the HydroModeler environment, a model coupling tool built on the
+Open Modeling Interface standard (version 1.4), and show how a hydrology model can be hosted as
+a WPS web service and used within a client-side workflow. The primary advantage of this approach is
+that the server-side software follows an established standard that can be leveraged and reused within
+multiple workflow environments and decision support systems.
 
-SISO ENGTAM SG [main] - see note.
+
+==== WPS and Workflow
+
+
+COUPLING OF EARTH SCIENCE MODELS AND EARTH OBSERVATIONS THROUGH OGC INTEROPERABILITY SPECIFICATIONS
+978-1-5090-3332-4/16/$31.00 ©2016 IEEE 3602 IGARSS 2016
+Liping Di, et.al.
+
+Modeling, a common method in Earth science research, needs a significant amount of data for model initialization, validation, verification, and calibration. Most of those data requirements could be met by the Earth observation data and their derived products. However, currently the use of Earth observation data in modeling requires significant effort for data preparation. This paper presents a Web service based general framework for making Earth observation data easily accessible and usable by various Earth science models. The framework uses OGC and ISO geospatial standards and specifications for facilitating the interoperability between Earth observation data sources and Earth science models (ESMs), and geospatial processing modeling, web service workflow and product virtualizations for automatically producing model-specific data products. The framework has been implemented as CyberConnector, a building block of NSF EarthCube cyberinfrastructure. Case demonstration of CyberConnector with three representative ESMs shows the reduction of at least one order of magnitude in time and effort spent by modelers for data preparation.
+
+
+Models as web services using the OGC Web Processing Service (WPS) standard
+M.Castronova, Jonathan L.Goodall, Mostafa M.Elag, Environmental Modelling & Software Volume 41, March 2013, Pages 72-83
+https://doi.org/10.1016/j.envsoft.2012.11.010
+
+Environmental modeling often requires the use of multiple data sources, models, and analysis routines coupled into a workflow to answer a research question. Coupling these computational resources can be accomplished using various tools, each requiring the developer to follow a specific protocol to ensure that components are linkable. Despite these coupling tools, it is not always straight forward to create a modeling workflow due to platform dependencies, computer architecture requirements, and programming language incompatibilities. A service-oriented approach that enables individual models to operate and interact with others using web services is one method for overcoming these challenges. This work advances the idea of service-oriented modeling by presenting a design for a modeling service that builds from the Open Geospatial Consortium (OGC) Web Processing Service (WPS) protocol. We demonstrate how the WPS protocol can be used to create modeling services, and then demonstrate how these modeling services can be brought into workflow environments using generic client-side code. We implemented this approach within the HydroModeler environment, a model coupling tool built on the Open Modeling Interface standard (version 1.4), and show how a hydrology model can be hosted as a WPS web service and used within a client-side workflow. The primary advantage of this approach is that the server-side software follows an established standard that can be leveraged and reused within multiple workflow environments and decision support systems.
+
+
+Distributed Geoscience Algorithm Integration Based on OWS Specifications: A Case Study of the Extraction of a River Network
+Xicheng Tan, et.al.,  ISPRS Int. J. Geo-Inf. 2019, 8, 12; doi:10.3390/ijgi8010012 www.mdpi.com/journal/ijgi
+
+Abstract: To understand and solve various natural environmental problems, geoscience research activities are becoming increasingly dependent on the integration of knowledge, data, and algorithms from scientists at different institutes and with multiple perspectives. However, the facilitation of these integrations remains a challenge because such scientific activities require gathering numerous geoscience researchers to provide data, knowledge, algorithms, and tools from different institutes and geographically distributed locations. The pivotal issue that needs to be addressed is the identification of a method to effectively combine geoscience algorithms in a distributed environment to promote cooperation. To address this issue, in this paper, a scheme for building a distributed geoscience algorithm integration based on the Open Geospatial Consortium web service (OWS) specifications is proposed. The architecture of the geoscience algorithm integration, algorithm service management mechanism, XML description method for algorithm integration, and integrated model execution strategy are designed and implemented. The experiment implements the integration of geoscience algorithms in a distributed cloud environment and evaluates the feasibility and efficiency of the integrated geoscience model. The proposed method provides a theoretical basis and practical guidance for promoting the integration of distributed geoscience algorithms; this approach can help to aggregate the distributed geoscience capabilities to address natural challenges.
+
+==== i3S
+
+==== 3DTiles
+
+
+=== M&S Projects
+
+==== NATO Modelling and Simulation as a Service (MSaaS)
+
+“M&S as a Service (MSaaS) is an enterprise-level approach for discovery, composition, execution and management of M&S services.” [2]
+
+[2] NATO: AMSP-02 “Allied Framework for Modelling & Simulation (MSaaS) Governance Policies”. Edition (A), Version 1. To be published.
+
+NATO conducted study into “Modelling and Simulation as a Service (MSaaS): New Concepts and Service-Oriented Architectures” [10]. Based on a survey of existing MSaaS case studies, it was recommended that MSaaS should be investigated in more detail. This resulted in the establishment of MSG Research Task Group 136 (“Modelling and Simulation (M&S) as a Service (MSaaS) – Rapid deployment of interoperable and credible simulation environments”), which began a 3-year program of work in November 2014.
+
+[10] NATO:FinalReportofMSG-131“ModellingandSimulationasaService:NewConceptsandService Oriented Architectures”. STO Technical Report TR-MSG-131, Document AC/323(MSG-131)TP/608. May 2015.
+
+Modelling and Simulation as a Service (MSaaS) – Rapid Deployment of Interoperable and Credible Simulation Environments (STO-TR-MSG-136-Part-I), 2018 ISBN 978-92-837-2154-3
+
+The NATO MSG-136 Reference Architecture for M&S as a Service
+The Allied Framework for Modeling and Simulation (M&S) as a Service (MSaaS) is proposed by NATO MSG-136 as a permanent service- and cloud-based M&S ecosystem for use by NATO and partner nations. The framework is designed to aid stakeholders to utilize state-of-the-art service-oriented and cloud-based methodology and technology to achieve interoperability between participating simulation systems and ensuring credibility of results. This paper presents the reference architecture that is currently developed as part of the technical concept for the Allied Framework for MSaaS. The reference architecture is structured on The Open Group SOA Reference Architecture, while its contents is supplied via the NATO C3 Taxonomy in the form of architecture building blocks and architecture patterns. The MSaaS Reference Architecture is not a final product. It will change over time as new architecture building blocks and patterns are identified and added, and existing ones modified and improved.
 
 
 
+
+==== Model Builders
+
+* Vricon
+
+Precision accuracy and 0.5-meter resolution supports 3D analysis and operations on the local, regional, and global scales.
+
+* VATC
+
+http://www.vatcinc.com/common-database-builder/
+
+Build and export a 3D virtual environment.
+
+EPIC Builder is an innovative content creation tool that is transforming the way that the common database (CDB) can be used in training and operational environments. EPIC Builder makes it easier for users to take advantage of CDB’s open-source geodatabase capabilities to support a variety of interoperable training, mission rehearsal, intelligence and simulation applications.
+
+EPIC Builder takes Open Geospatial Consortium (OGC) standard data—such as web maps, features or coverage areas, or geospatial data files—and rapidly reads and processes that data into CDB standard format. A “what you see is what you get” application, EPIC Builder lets you preview the inserted data in 3-D before it’s created in CDB. If your application requires only geospatial visualization, EPIC Builder includes an easy-to-use viewer that allows you to visualize the 3-D mapping data in real time without processing.
+
+By creating a common operational picture for a worldwide synthetic environment, CDB significantly enhances command and control and training capabilities, while reducing development time and associated database development costs. As a valuable content creation tool, EPIC Builder lets you get the most out of CDB’s advanced capabilities.
+
+    As the adoption of CDB expands in the military and worldwide, EPIC Builder offers the ideal solution for organizations that want to take advantage of this powerful international data standard.
 
 
 
 === Integrated Environmental Modeling projects
 
 
+==== Community Earth System Model
+
+
+CESM is a fully-coupled, community, global climate model that provides state-of-the-art computer simulations of the Earth's past, present, and future climate states.
+http://www.cesm.ucar.edu/projects/
+
+When Less Is More: Opening the Door to Simpler Climate Models
+Earth system models are resource intensive and complex. To cut through this complexity, the Community Earth System Model project will now be embracing a hierarchy of simpler climate models.
+https://eos.org/opinions/when-less-is-more-opening-the-door-to-simpler-climate-models
+
+==== Community Surface Dynamics Modeling System
+
+The Community Surface Dynamics Modeling System (CSDMS) deals with the Earth's surface - the ever-changing, dynamic interface between lithosphere, hydrosphere, cryosphere, and atmosphere. We are a diverse community of experts promoting the modeling of earth surface processes by developing, supporting, and disseminating integrated software modules that predict the movement of fluids, and the flux (production, erosion, transport, and deposition) of sediment and solutes in landscapes and their sedimentary basins.
+https://csdms.colorado.edu/wiki/Main_Page
+
+* CSDMS Component Model Interface (version 1.0)
+
+Any model that provides the Basic Model Interface (BMI) functions can be easily converted to a CSDMS plug-and-play component that has a CSDMS Component Model Interface or CMI. This conversion/wrapping process is done by CSDMS staff. The BMI functions are called by the CMI, by the framework and by service components. It is not necessary for a developer to learn anything about the CMI unless they're just curious. This page is for those curious people.
+https://csdms.colorado.edu/wiki/CMI_Description
+
+==== Coastal and Ocean Modeling Testbed
+
+https://comt.ioos.us/
+
+The U.S. IOOS Coastal and Ocean Modeling Testbed (COMT)supports integration, comparison, scientific analyses and archiving of data and model output needed to elucidate, prioritize, and resolve federal and regional operational coastal ocean issues associated with a range of existing and emerging coastal oceanic, hydrologic, and ecological models. The Testbed has enabled significant community building (within the modeling community as well as enhancing academic and federal operational relations) which has dramatically improved model development.
+
+Projects supported through the COMT are designed to create new knowledge, new model code and tools; develop operational user capacity; and build a repository of evaluation data sets to expand and improve the modeling capabilities of operational partners and the broader coastal and ocean modeling community. Transition from research to operations is enhanced by scoping projects that meet identified operational needs, including both researchers and operational users on project teams, and leveraging transition resources such as NOAA’s Research Transition Acceleration Program (RTAP).
+
+The COMT Mission is To use applied research and development to accelerate the transition of scientific and technical advances from the coastal ocean modeling research community to improved operational ocean products and services (i.e. via research to operations and also operations to research)
+
+The COMT Vision is  To increase the accuracy, reliability, and scope of the federal suite of operational ocean modeling products to meet the needs of a diverse user community. Operational use covers a wide range of society-critical applications including forecasts, forensic studies, risk assessment, and design and system management.
+
+
+Journal of Geophysical Research: Oceans banner
+Introduction to special section on The U.S. IOOS Coastal and Ocean Modeling Testbed
+https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/*2013JC008939*
+
+==== Earth System Modelling Framework (ESMf)
+
+The Earth System Modeling Framework (ESMF) is high-performance, flexible software infrastructure for building and coupling weather, climate, and related Earth science applications. The ESMF defines an architecture for composing complex, coupled modeling systems and includes data structures and utilities for developing individual models.
+
+The basic idea behind ESMF is that complicated applications should be broken up into coherent pieces, or components, with standard calling interfaces. In ESMF, a component may be a physical domain, or a function such as a coupler or I/O system. ESMF also includes toolkits for building components and applications, such as regridding software, calendar management, logging and error handling, and parallel communications.
+
+ www.earthsystemmodeling.org
+
+==== Earth System Bridge
+
+https://www.earthsystemcog.org/projects/earthsystembridge/
+Earth System Bridge
+
+The Earth System Bridge project, an EarthCube Building Block, is building connections between disciplines, technologies, and communities. It draws from significant disciplinary and interdisciplinary expertise in the development, implementation and support of geoscientific modeling architectures and in the adoption of community standards in model development and data management. The Earth System Bridge team is integrating existing model architectures, model coupling standards, and data standards into a set of open-source building blocks that will transform the process of Earth system model coupling, and bridge present technological and cultural gaps.
+
+The Earth System Bridge team includes leaders from several major modeling frameworks and projects - both federal and academic - including: CSDMS (Community Surface Dynamics Modeling System), ESMF(Earth System Modeling Framework), CIG/Pyre (Computational Infrastructure for Geodynamics), CUAHSI(Consortium of Universities for the Advancement of Hydrologic Science) and NCAR (National Center for Atmospheric Research). Leaders from the OMS (Object Modeling System) and OpenMI (Open Modeling Interface) modeling frameworks are also contributing to the project.
+
+Bridges between disciplines:
+
+The Earth System Bridge project is developing metadata standards that cross disciplinary bounds. The Community Surface Dynamics Modeling System (CSDMS) standard names describe the fields passed between components in a modeling system. Under EarthCube, the CSDMS names are being mapped to the Climate and Forecast conventions, used in weather and climate modeling and in international model intercomparison efforts leading to the Intergovernmental Panel on Climate Change Assessment Reports.
+Bridges between communities:
+
+The research community and the operational prediction community often work in different ways, yet their interaction is essential for bringing the best science to bear on forecasts that affect life and property. Through the Earth System Bridge project, NSF is funding an effort that will bring the Weather Research and Forecasting Hydrological model (WRF-Hydro) into the operational suite of the National Weather Service. In doing so, it is connecting the active research community associated with WRF-Hydro with the operational community, and resolving processes that have the potential to improve the simulation of events such as hurricane landfall. Follow progress on the activity roadmap.
+Bridges between technologies:
+
+The Earth System Modeling Framework (ESMF) and the CSDMS Basic Model Interface (BMI) offer component wrappers that are widely used in their disciplines and have begun extending to cross-disciplinary modeling scenarios. ESMF, through a set of conventions called the National Unified Operational Prediction Capability (NUOPC) Layer, couples models in weather, climate, space weather, and hydrology, while the BMI is used for a wide range of surface processes and their connections to ocean and atmosphere. The Earth System Bridge team is building a connector to translate between ESMF standard interfaces and BMI so that components built in either framework can be used in the other. Follow progress on the activity roadmap.
+
+Guiding this work is the idea that in the future, multiple frameworks may be connected to build an interdisciplinary application. The Earth System Bridge team is developing an Earth System Framework Description Language (ES-FDL) that describes the characteristics of frameworks in detail. This description is being used in concert with questionnaire and display tools from the Earth System Documentation (ES-DOC) project to collect information from modeling frameworks around the world. This activity is being coordinated with the International Working Committee on Coupling Technologies (IWCCT), a group of framework developers that meets every two years to share ideas and forge connections.
+
+
 ==== Community Land Model
+
+
+=== Computing Technology and Platforms
+
+(Increasing)computational diversity, coupled with ever increasing software complexity, leads to the very real possibility that weather and climate modeling will arrive at a chasm which will separate scientific aspiration from our ability to develop and/or rapidly adapt codes to the available hardware... We assert that the existing method of incremental model improvements employing small steps which adjust to the changing hardware environment is likely to be inadequate for crossing the chasm... Instead, we outline a methodology based on large community efforts in engineering and standardisation.
+Bryan N. Lawrence, et.al., "Crossing the chasm: how to develop weather and climate models for next generation computers?" Geosci. Model Dev., 11, 1799–1821, 2018 www.geosci-model-dev.net/11/1799/2018/
+
+==== Cloud computing
+
+==== Big Data software
+
+==== Programming and scripting languages
+
+Python, R, Jupyter
+
+For R: Spatial Distribution Models, Robert J. Hijmans and Jane Elith, Jan 02, 2019
+
+=== Visualization
+
+https://globenewswire.com/news-release/2018/11/28/1658109/0/en/Presagis-to-Launch-Worldwide-Terrain-Viewer-Based-on-Unreal-Engine.html
+
+Presagis to Launch Worldwide Terrain Viewer Based on Unreal Engine
+
+
+ORLANDO, Fla., Nov. 28, 2018 (GLOBE NEWSWIRE) -- Presagis today announced ORB ViewR – a free, standalone application powered by Unreal Engine that gives users the ability to explore their worldwide synthetic terrains through photo-realistic renderings with round-earth support, and out-the-window views with the smooth, seamless performance inherent with gaming technology.
+Presagis, a leader in simulation software and solutions, is demonstrating ORB ViewR at I/ITSEC, the world’s largest modeling, simulation and training event (November 26-29, in Orlando Florida) at booth #2427.

@@ -37,20 +37,34 @@ image::figures/ModSimPredictOvals.png[width=800,align="center"]
 
 This Tech Note uses a set of related but distinct concepts.  Each of these concepts are based on using computer algorithms, simulations, processes to model some elements of our world.  They differ in the processes which the model and the purposes for which they are applied.
 
-1. "Modeling and Simulation" provides synthetic environments of activities at a high level of realism; from simulation of theaters of war to factories and manufacturing processes; and, with an emphasis on visualization of and immersion into the environment being simulated.
-2. "Simulation and Prediction" provides realistic estimates of a domain of analysis.  The objective is to provide estimates of variables of interest over a timeseries and in geographic context. Prediction methods may be based on theoretical models of the underlying phenomena or may be based on data science methods of statistics, probability or data mining.
-3. Predictive modeling - statistical processes for spatially analyzing events in order to make statements of likelihood for event occurrence
-4. Integrated Environmental Modeling  -
-5. Built Environment Modeling
+1. Earth System Modeling
+  "Simulation and Prediction" provides realistic estimates of a domain of analysis.  The objective is to provide estimates of variables of interest over a timeseries and in geographic context. Prediction methods may be based on theoretical models of the underlying phenomena or may be based on data science methods of statistics, probability or data mining.
+  ESM including Integrated Environmental Modeling.  Integrated environmental modeling (IEM) is a discipline inspired by the need to solve increasingly complex real-world problems involving the environment and its relationship to human systems and activities (social and economic).  IEM provides a science-based structure to develop and organize multidisciplinary knowledge.
+
+2. "Modeling and Simulation"
+  provides synthetic environments of activities at a high level of realism; from simulation of theaters of war to factories and manufacturing processes; and, with an emphasis on visualization of and immersion into the environment being simulated.
+3. Built Environment Modeling
+  Including Digital Twins both static and dynamic
+4. Social and statistical modeling
 
 
 The US National Strategic Computing Initiative noted the need to address both Data Analytic Computing along with Modeling and Simulation:
 Historically, there has been a separation between data analytic computing and modeling and simulation. Data analytics focuses on inferring new information from what is already known to enable action on that information. Modeling and simulation focuses on insights into the interaction of the parts of a system, and the system as a whole, to advance understanding in science and engineering and inform policy and economic decision-making. While these systems have traditionally relied on different hardware and software stacks, many of the current challenges facing the two disciplines are similar. A coherent platform for modeling, simulation, and data analytics would benefit both disciplines while maximizing returns on R&D investments18.
 
 
+===  OGC Leadership
 
+* Open Standards that enable MSP interoperability
+  - Future Directions Sessions on MSP
+* Innovation Program Initiatives that advance applications
+  - Interoperability of ESM and Built Environment in OGC Testbed 11 and Smart City Pilot
+  - Interoperability of Built Environment, M&S and 3D visualization in Testbed 14
+* SISO and OGC - Geospatial3DMS Summits
+* Technology Roadmapping identifies MSP as a priority trends
 
-This Tech note is organized using the outline of Technology Roadmapping techniques that show the interrelation of Markets, Appplications and Technology across the several time horizons.
+=== Document structure and roadmap
+
+This Tech note is organized using the outline of Technology Roadmapping techniques that show the interrelation of Markets, Applications and Technology across the several time horizons.
 
 * Markets (Section 2)
 * Applications (Section 3)

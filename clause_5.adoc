@@ -17,3 +17,49 @@ ISPRS Int. J. Geo-Inf. 2019, 8, 12; doi:10.3390/ijgi8010012
    3. space and time models
  3. future needs
  4. Standards Needed
+
+=== OGC Standards Program activities
+
+==== Future Directions TC sessions
+
+Future Directions: Modeling, Simulation, and Prediction
+6 December 2017
+
+OGC Future Directions: Modeling, Simulation & Prediction
+28 February 2019
+* Future Directions of Modeling, Simulation and Gaming used for Training and Rehearsal – David Graham (Eagle Cap Systems/CAE)
+* Observations on Developments in Information Modelling – Clemens Portele(Interactive Instruments GmbH)
+* A Brief History of Meteorology and Numerical Weather Prediction – Chris Little (UK Met Office)
+* Lessons for Future OWS-Supported Geospatial Predictive Modeling – Gobe Hobona (OGC)
+
+
+=== OGC Liaisons
+
+* iEMSs
+
+OGC will provide a Keynote presentation for
+
+iEMSs Regional Conference, Nanjing, May 18-20 2019
+https://www.iemss.org/2019-nanjing/
+
+It is widely accepted that environmental sustainability is a critical for human life (especially for future generations). The practice of environmental sustainability attempts to provide solutions for rapidly depleting renewable/unrenewable resources and protecting the environment long-term. Modeling and simulation is continues to be an effective approach for better characterizing the real world and thus supporting practical policy-formulating and decision-making needs. Due to the complexity of Earth’s environmental system, which includes massive dynamic chemical, biological, and physical processes and complicated human activities, it is impossible to develop an all-inclusive models which represent all local and global environmental interactions. Therefore, it is essential to integrate knowledge from multiple disciplines when modeling Earth’s environmental system. The methods, theories, and practices of interdisciplinary modeling (such as integrated environmental modeling, collaborative modeling, and participatory modeling) require continual improvement to meet these challenges. Studies about Future Earth (FE), Virtual Geographic Environment (VGE), E-Science and Service-Oriented Architecture (SOA)-based modeling are all important and effective approaches for exploring the environment’s past, present and future; these studies have also promoted trends towards sharing, reusing and integrating models, data and other modeling-related resources in an open web environment, which can support researchers’ communication and collaborative work. Moreover, the study of modeling for environmental sustainability needs to take the social barriers into consideration as well.
+
+
+* SISO and OGC - Geospatial3DMS
+
+Increasing the level of interoperability across the M&S community is a major goal of this 3D Geospatial Modeling & Simulation project. A common overall interoperability framework is needed to assure that all relevant tools, processes data sources and distribution options can be rapidly mobilized and enhanced with minimal time, effort and cost to meet the growing needs of the user community.
+
+The Open Geospatial Consortium, the Simulation Interoperability Standards Organization, and the US Geospatial-Intelligence Foundation (USGIF) are joining forces to encourage broad collaboration on the identification, prioritization and advancement of key standards and best practices to benefit the M&S community and with the broad global based of users and content providers. Through this coordination we seek to unite technology providers, content providers and practitioners to assure that our overall interoperability approach in standards development and deployment is well coordinated and that M&S and broader user community interests are addressed.
+
+Our goal is to establish a cross-organizational focus group to help identify, prioritize and influence the direction of supporting organizations in a way that meets urgent community needs, minimizes redundancy of effort, and achieves scales of economy and outcomes that could not be achieved by any organization working in isolation.
+
+http://external.opengeospatial.org/twiki_public/Geospatial3DMS/WebHome
+
+
+3D Geospatial Modeling & Simulation Summit II
+Conincident with the 2017 I/ITSEC conference convened in Orlando FL in late November, conference attendees,experts from across the Modeling & Simulation community along with leadership of the Simulation Interoperability Standards Organization (SISO), the Open Geospatial Consortium (OGC), and the US Geospatial Intelligence Foundation (USGIF) met to discuss advancements in interoperabilty, and to identify areas for future joint work. The meeting was held on the morning of 29 November from 0830-1130 at the Orange County Convention Center. About 50 persons were in attendance in person with a few attending remotely via net meeting.
+http://external.opengis.org/twiki_public/Geospatial3DMS/SummittII
+
+
+The USGIF M&S Working Group hosted the third in a series of 3D Geospatial M&S related summit meetings co-sponsored by the USGIF, the Open Geospatial Consortium (OGC), and the Simulation Interoperability Standards Organization (SISO). The purpose of this summit series is to establish a continuous learning culture across the geospatial and M&S domains that leads to greater interoperability and progress towards our vision of a global model of the earth. The focus of this summit was several fold: 1) to review recent progress made on advancement of interoperability, 2) to discuss the key challenges that lay ahead; and 3) to provide details on a roadmap of current and planned initiatives designed to stimulate robust experimentation across the community regarding new levels of interoperability.
+http://external.opengeospatial.org/twiki_public/Geospatial3DMS/SummittIII
